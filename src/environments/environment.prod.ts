@@ -4,8 +4,8 @@ import env from './.env';
 export const environment = {
   production: true,
   version: env.npm_package_version,
-  fineractPlatformTenantId: 'staging',  // For connecting to server running elsewhere update the tenant identifier
-  baseApiUrl: 'https://staging.openmf.org',  // For connecting to server running elsewhere update the base API URL
+  fineractPlatformTenantId: 'mifostenant-default',  // For connecting to server running elsewhere update the tenant identifier
+  baseApiUrl: 'https://62.171.190.235',  // For connecting to server running elsewhere update the base API URL
   apiProvider: '/fineract-provider/api',
   apiVersion: '/v1',
   serverUrl: '',
